@@ -1,0 +1,98 @@
+/* Maggie's CSS File */
+
+
+
+
+body { 	font-family: serif;
+	font-size:20px;
+	
+	margin:20px;
+	background:white url(images/watercolourfix.png);
+	bachground-repeat: norepeat ;
+	background-attachment: fixed;      }
+
+
+h1, h2, h3 , h4 , h5, h6 {font-family: 'times new roman', serif ;
+		font-weight: normal ; }
+
+h1 { font-size: 160% ; }
+h2 { font-size: 140% ; }
+h3 { font-size: 120% ; }
+
+p, h1, h2, h3, ol, ul, {margin-top: 0;
+			margin bottom: 1px;}
+
+ol { padding-left: 0px ;
+     margin-left: 30px ; }
+
+img {padding: 4px;
+     border: 1px #4a2885;
+     background-color: white ;}
+
+a { color: #422f20;
+ font-weight: bold;
+ text-decoration: none;
+ border-bottom: 1px solid #516292; 
+   padding-bottom: 1px; }
+
+a:visited {color: #4a2885; }
+
+a:hover, a:focus, a:active {background-color: #fff5e8;
+				       color: #800080; 
+				       border-bottom-color: #fdebcf; }
+
+div#border  { width: 1080px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 10px; }
+
+header {height: 200px;}
+
+
+nav {display:none;
+	width: 200px
+	padding-right: 500px; }
+
+footer {clear: both;
+        padding: 10px ;
+        font-size: 75% ;
+	height: 1% ;
+	background:white url(images/footer.png) no-repeat;
+	color: #4a2885 ;
+        border-top: 2px dotted #464646; }
+
+nav ul {list-style-type: none;
+	border: 1px solid #4a2885;
+	margin-left: 10px;
+	padding-left: 5px;
+	margin-right: 100px;
+	padding-right: 10px;
+	border-bottom: 5px;
+	background:white url(images/frame.png) no-repeat;
+	display: block;
+	line-height: 2;
+	height: 2% ; }
+
+nav a {a:hover background-color; white;}
+
+footer a:link {color: #4a2885 ;} 
+
+footer a:hover, footer a:focus, footer a:active {background-color: transparent; border: none;}
+
+
+
+table {border: 1px solid black;}
+
+caption {display:none}
+
+thead {color: white;
+	font-family:'brushstroke', serif;
+	background-color: #4a2885;
+	text-align: left; }
+
+tbody {font-family:'brushstroke', serif;
+	background-color: white;
+	font-family: 90%;}
+
+td, th {padding-right: 7px;}
